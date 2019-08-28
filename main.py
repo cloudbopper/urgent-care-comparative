@@ -11,6 +11,7 @@ import utilities
 import argparse
 import pickle
 from deep_models import *
+from utilities import balanced_subsample, hierarchical_subsample
 
 from sklearn.model_selection import *
 from sklearn.linear_model import LogisticRegression as LR
